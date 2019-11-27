@@ -165,7 +165,6 @@ img {
     width: 100%;
     margin-top: 92px;
     height: 160px;
-    background-size: cover;
     text-align: center;
     padding-top: 30px;
 }
@@ -182,7 +181,7 @@ img {
     width: 60px;
     height: 3px;
     background:white;
-    margin: 6px auto 10px auto;
+    margin: 6px auto 8px auto;
 }
 
 /********************** Produtos ******************************/
