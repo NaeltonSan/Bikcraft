@@ -72,3 +72,10 @@
     text-align:center;
     border: 2px solid black;
   }
+
+/**Orçamento***/
+
+.form {
+    padding-right: 60px;
+    
+}
