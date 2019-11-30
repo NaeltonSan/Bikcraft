@@ -44,25 +44,31 @@
     color: #fff;
     font-size: 18px;
     line-height: 25px;
-    padding: 30px 40px;
+    padding: 24px 40px;
 }
 
-.produto_info ul li {
+/*tabela () fiz de uma forma diferente da do professor*/
+.container-tabela {
+    border: 2px solid black;
+    width: 460px;
     background: #fec63e;
+}
+
+.container-tabela ul li {
     text-transform: uppercase;
     font-size: 18px;
     line-height: 20px;
-    font-weight: bold;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.box-tabela {
     float: left;
     width: 228px;
-    height: 49px;
-    text-align: center;
-    padding-top: 16px;
-}
-
-.produto_info ul li:nth-child(1), .produto_info ul li:nth-child(2){
-    margin-bottom: 2px;
-}
-.produto_info ul li:nth-child(odd) {   /*selecionar impares*/
-    margin-left: 2px;
-}
+    padding: 20px;
+    text-align:center;
+    border: 2px solid black;
+  }
