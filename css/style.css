@@ -30,6 +30,7 @@ img {
 .btn.btn-preto:hover {  /* quando esta pegado , esta falando somente quanto estiver as duas classes juntas na tag*/
     color: #000;
     border-color: #000;
+    background: none;
 }
 
 .subtitulo {

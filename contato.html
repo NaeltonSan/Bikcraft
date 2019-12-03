@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Bikcraft - Produtos</title>
+    <title>Bikcraft - Contato</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/produtos.css">
+    <link rel="stylesheet" href="css/contato.css">
 </head>
 
 <body>
@@ -22,75 +22,53 @@
             <nav class="grid-12 header_menu">
                 <ul>
                     <li><a href="sobre.html">Sobre</a></li>
-                    <li><a href="produtos.html" class="menu_ativo">Produtos</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
                     <li><a href="portfolio.html">Portfólio</a></li>
-                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="contato.html" class="menu_ativo">Contato</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <section class="introducao-interna interna_produtos">
-        <div class="container">
-            <h1>Produtos</h1>
-            <p>conheça todos os nossos produtos</p>
+    <section class="introducao-interna interna_contato">
+        <div class="container"></div>
+        <h1>Contato</h1>
+        <p>tire suas dúvidas com a gente</p>
     </section>
 
-    <section class="container produto_item">
-        <div class="grid-11">
-            <img src="/img/produtos/bikcraft-passeio-1.jpg" alt="Bikcraft Passeio">
-            <h2>Passeio</h2>
-        </div>
-        <div class="grid-5 produtos_icone"><img src="/img/produtos/passeio.svg"></div>
-        <div class="grid-8"><img src="/img/produtos/bikcraft-passeio-2.jpg" alt="Bikcraft Passeio"></div>
-        <div class="grid-8 produto_info">
-            <p>No mundo atual, a contínua expanção de nessa atividade cumpre um papel essencial na formula da gestão
-                inovadora da qual
-                fazemos parte inovaora da qual fazemos parte
-            </p>
-            <div class="container-tabela">
-                <ul class="clearfix">
-                    <li class="box-tabela">Conforto</li>
-                    <li class="box-tabela">Velocidade</li>
-                    <li class="box-tabela">Design</li>
-                    <li class="box-tabela">Versatilidade</li>
-                </ul>
-            </div>
+    <section class="contato container">
+        <form id="form_orcamento" class="contato_form grid-8">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome">
+            <label for="email">E-mail</label>
+            <input type="text" id="nome">
+            <label for="telefone">Telefone</label>
+            <input type="text" id="telefone">
+            <label for="espec">Especificações</label>
+            <textarea name="" id="espec"></textarea>
+            <button type="submit" class="btn btn-preto">Enviar</button>
+        </form>
+        <div class="contato_dados grid-8">
+            <h3>Dados</h3>
+            <span>+55 79 9 9876-5432</span>
+            <span>orcamento@bikcraft.com.br</span>
+            <span>Rua Ali Perto - 13 Julho</span>
+            <span>Arcaju - SE - Brasil</span>
+            <h3>Redes Sociais</h3>
+            <ul>
+                <li><a href="http://facebook.com" target="_blank"><img src="/img/redes-sociais/facebook.svg" alt=""></a>
+                </li>
+                <li><a href="https://www.instagram.com" target="_blank"><img src="/img/redes-sociais/instagram.svg"
+                            alt=""></a></li>
+                <li><a href="http://twitter.com" target="_blank"><img src="/img/redes-sociais/twitter.svg" alt=""></a>
+                </li>
+            </ul>
         </div>
     </section>
 
-    <section class="orcamento">
-        <div class="container">
-            <h2 class="subtitulo">Orçamento</h2>
-            <form id="form_orcamento" class="form grid-8">
-                <label for="nome">Nome</label>
-                <input type="text" id="nome">
-                <label for="email">E-mail</label>
-                <input type="text" id="nome">
-                <label for="telefone">Telefone</label>
-                <input type="text" id="telefone">
-                <label for="espec">Especificações</label>
-                <textarea name="" id="espec"></textarea>
-                <button type="submit" class="btn">Enviar</button>
-            </form>
-            <div class="orcamento_dados grid-8">
-                <h3>Dados</h3>
-                <span>+55 79 9 9876-5432</span>
-                <span>orcamento@bikcraft.com.br</span>
-                <h3>Monte a sua Bikcraft</h3>
-                <p class="p">Escolha as especificações:</p>
-                <ul>
-                    <li>- Cores</li>
-                    <li>- Estilo</li>
-                    <li>- Medidas</li>
-                    <li>- Acessórios</li>
-                    <li>- E Outros</li>
-                </ul>
-            </div>
-        </div>
-
+    <section class="container contato_mapa">
+        <a href="http://google.com" target="_blank" class="grid-16"><img src="img/endereco-bikcraft.jpg" alt="Endereço da Bikcraft"></a>
     </section>
-
 
     <section class="quebra">
         <blockquote class="quote-externo container">
@@ -127,7 +105,6 @@
                                     src="/img/redes-sociais/instagram.svg" alt=""></a></li>
                         <li><a href="http://twitter.com" target="_blank"><img src="/img/redes-sociais/twitter.svg"
                                     alt=""></a></li>
-
                     </ul>
                 </div>
             </div>
