@@ -9,6 +9,7 @@ p {
 
 img {
     display: block; /* para tirar as margens que vem na imagem por padrão*/
+    max-width: 100%; /*para se adaptar para dentro do conteúdo*/
 }
 
 .btn {
