@@ -20,7 +20,26 @@
         width: 26px;
         height: 26px;
     }
-}
+
+    /*Produtos*/
+    .produto_item h2 {
+        top: -150px;
+        margin-bottom: -56px;
+    }
+
+    .produtos_icone {
+        padding: 41px 0;
+    }
+/* 
+    .produto_info p {
+
+    } */
+
+
+
+
+
+}  /*Final Estilo para tablet*?
 
 
 /*Estilo para smartphone*/
@@ -95,4 +114,4 @@
         font-size: 14px;
         line-height: 25px;
     }
-}
+} /*Final Estilo para smartphone*?
