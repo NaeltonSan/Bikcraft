@@ -30,10 +30,14 @@
     .produtos_icone {
         padding: 41px 0;
     }
-/* 
-    .produto_info p {
 
-    } */
+    .produto_info p {
+        color: #fff;
+        font-size: 14px;
+        line-height: 25px;
+        height: 180px;
+        padding: 30px 40px;
+    }
 
 
 
