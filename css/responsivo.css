@@ -34,10 +34,22 @@
     .produto_info p {
         color: #fff;
         font-size: 14px;
-        line-height: 25px;
-        height: 180px;
-        padding: 30px 40px;
+        line-height: 27px;
+        padding: 5px 10px;
     }
+
+    .box-tabela {
+        float: left;
+        width: 180px;
+        padding: 20px;
+        text-align:center;
+        border: 2px solid black;
+    }
+   
+    .container-tabela {
+        width: 364px;
+    }
+
 
 
 
