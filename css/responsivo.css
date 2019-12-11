@@ -49,12 +49,21 @@
     .container-tabela {
         width: 364px;
     }
+
+    /*contato*/
+    .contato_form {
+        padding-right: 0px;
+    }
 }  /*Final Estilo para tablet*?
 
 
 /*Estilo para smartphone*/
 @media only screen and (max-width:787px) {
 
+    /*pagina sobre - qualidade*/
+      .qualidade {
+        padding: 60px 0 60px 0;
+    }
     /*Header*/
     .header {
         position: relative;
