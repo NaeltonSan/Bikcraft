@@ -49,12 +49,6 @@
     .container-tabela {
         width: 364px;
     }
-
-
-
-
-
-
 }  /*Final Estilo para tablet*?
 
 
@@ -130,4 +124,41 @@
         font-size: 14px;
         line-height: 25px;
     }
-} /*Final Estilo para smartphone*?
+
+    .produto_item h2 {
+        top: -100px;
+        margin-bottom: -68px;
+    }
+
+    .produtos_icone {
+        padding: 41px 0;
+    }
+
+    .produto_info p {
+        
+        font-size: 14px;
+        line-height: 27px;
+        height: auto;
+        padding: 5px 10px;
+    }
+
+    .container-tabela{
+        width: 300px;
+    }
+
+    .container-tabela ul li {
+        text-transform: uppercase;
+        font-size: 14px;
+        width: 148px;
+        line-height: 20px;
+    }
+
+    .orcamento_dados ul {
+        padding-right: 0px;
+    }
+    
+    .form {
+        padding-right: 0px;
+    }
+
+} /*Final Estilo para smartphone*/
